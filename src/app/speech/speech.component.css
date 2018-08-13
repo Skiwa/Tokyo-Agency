@@ -1,0 +1,52 @@
+#speech{
+  min-height:40vh;
+  height: 40vh;
+  background-color: #FFF2DE;
+  display: table;
+  padding-bottom: 2vh;
+}
+
+#speech .content{
+  line-height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#speech h1{
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 2.1em;
+   line-height: 2;
+   font-family: "GothamPro", sans-serif;
+   font-weight: 900;
+   color: #364649;
+ }
+
+#speech .break{
+  margin: auto;
+  display: block;
+  height: 1em;
+}
+#speech .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 3vh;
+}
+
+#speech .container p{
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: "GothamPro", sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  color: #152B30;
+  padding: 0 30px;
+}
+
+.paragLeft{
+  grid-column: 2 / span 1;
+}
+
+.paragRight{
+  grid-column: 3 / span 1;
+}

@@ -1,0 +1,74 @@
+#showcase{
+  min-height: 60vh;
+  background-color: rgba(21,43,48,0.7);
+  padding-bottom: 2.5vh;
+}
+
+.showcaseTitle{
+  margin-top: 2.5vh;
+}
+#showcase h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.1em;
+  line-height: 2;
+  font-family: "GothamPro", sans-serif;
+  font-weight: 900;
+  color: #FFF2DE;
+}
+
+#showcase .break{
+  margin: auto;
+  display: block;
+  height: 1em;
+}
+
+.container {
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr 1fr) 0.5fr;
+}
+
+.container a{
+  text-decoration: none;
+  color: #152B30;
+}
+
+.frame{
+  height: 30vh;
+  overflow-y: hidden;
+  border-bottom: solid 4px #FAA914;
+}
+
+.showcaseImg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all .5s;
+}
+.showcaseLeft{
+  grid-column: 2 / span 1;
+}
+.showcaseMiddle{
+  grid-column: 4 / span 1;
+}
+.showcaseMiddle .showcaseImg{
+  object-position: top;
+}
+.showcaseRight{
+  grid-column: 6/ span 1;
+}
+
+.container a:hover > .frame >.showcaseImg{
+  transform: scale(1.2);
+}
+
+.frameTitle{
+  text-align: center;
+  background-color: antiquewhite;
+  font-size: 1.3em;
+  line-height: 3;
+  font-family: "GothamPro", sans-serif;
+  font-weight: 300;
+}
+
