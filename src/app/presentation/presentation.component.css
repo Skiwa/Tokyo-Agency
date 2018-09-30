@@ -128,3 +128,8 @@
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
+
+
+.image1 .jarallax .box-cover{
+  overflow-y: hidden !important;
+}
